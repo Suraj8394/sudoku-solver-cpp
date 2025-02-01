@@ -1,21 +1,24 @@
 # sudoku-solver-cpp
 A C++ backtracking-based Sudoku solver that finds a valid solution for a given 9x9 Sudoku board. This program efficiently places numbers using recursion and backtracking.
 
-#🚀 Features
+#🚀 Features:
+
 ✔️ Solves any valid 9x9 Sudoku puzzle
 ✔️ Uses backtracking algorithm for efficiency
 ✔️ Simple and easy-to-understand C++ implementation
 ✔️ Prints the solved Sudoku board
 
 
-#📌 How It Works
+#📌 How It Works:
+
 Checks if a number (1-9) is safe to place in an empty cell.
 Fills empty cells recursively using backtracking.
 Backtracks when no valid number is found and tries another possibility.
 Prints the completed Sudoku board if a solution exists.
 
 
-#📷 Example Input & Output
+#📷 Example Input & Output:
+
 Input (Unsolved Sudoku Board)
 
 5 3 0 | 0 7 0 | 0 0 0  
@@ -46,17 +49,19 @@ Output (Solved Sudoku Board)
 3 4 5 | 2 8 6 | 1 7 9  
 
 
-#🛠 Algorithm Explanation
+#🛠 Algorithm Explanation:
+
 1) Check Validity: Ensure a number can be placed in a cell by checking row, column, and 3×3 subgrid.
 2) Recursive Backtracking: Try placing numbers (1-9) in an empty cell, recursively solving the board.
 3) Backtrack if Needed: If no valid number is found, backtrack and try another number.
 4) Repeat Until Solved: The algorithm continues until the Sudoku is completely filled.
 
 
-#🤝 Contributing
+#🤝 Contributing:
+
 Contributions are always welcome! If you have suggestions for improving the algorithm or adding new features, feel free to submit a pull request.
 
-#📩 Contact
-If you encounter any issues or have any questions, feel free to reach out:
+#📩 Contact:
 
+If you encounter any issues or have any questions, feel free to reach out:
 📧 Email: surajpratap469@gmail.com
